@@ -1,0 +1,204 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.onlynight'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(':translator-plugin-sdk')
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile 'com.google.code.gson:gson:2.8.5'
+
+    // https://mvnrepository.com/artifact/dom4j/dom4j
+    compile 'dom4j:dom4j:1.6.1'
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.onlynight.exchange.Main'
+        attributes 'Class-Path': 'gson-2.8.5.jar dom4j-1.6.1.jar xml-apis-1.0.b2.jar translator-plugin-sdk-1.0-SNAPSHOT.jar'
+    }
+}
+
+task "create-dirs" << {
+    sourceSets*.java.srcDirs*.each { it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+} as String
+
+// delete android xml translate result folders
+task deleteXmlTranslateRes {
+
+    doLast {
+        File pluginsPath = new File(rootDir.getAbsolutePath() + '\\values\\');
+        File[] files = pluginsPath.listFiles()
+        for (File file : files) {
+            if (file.isDirectory()) {
+                file.deleteDir()
+            }
+        }
+    }
+
+}
+
+// delete ios strings translate result folders
+task deleteStringsTranslateRes {
+
+    doLast {
+        File pluginsPath = new File(rootDir.getAbsolutePath() + '\\zh-Hans.lproj\\');
+        File[] files = pluginsPath.listFiles()
+        for (File file : files) {
+            if (file.isDirectory()) {
+                file.deleteDir()
+            }
+        }
+    }
+
+}
+
+// copy all plugins to "plugins" folder
+task copyAllPlugins {
+    doLast {
+
+        deleteAllPlugins.execute()
+
+        // base plugin sdk
+        copy {
+            from 'translator-plugin-sdk/build/libs/'
+            into 'plugins/sdk/plugin-sdk/'
+        }
+
+        // android xml plugin sdk
+        copy {
+            from 'translator-plugin-android-xml-sdk/build/libs/'
+            into 'plugins/sdk/android/'
+        }
+
+        copy {
+            from 'translator-plugin-android-xml-sdk/'
+            into 'plugins/sdk/android'
+            include 'language_folder_mapper.json'
+        }
+
+        // ios strings plugin sdk
+        copy {
+            from 'translator-plugin-ios-strings-sdk/build/libs/'
+            into 'plugins/sdk/ios/'
+        }
+
+        copy {
+            from 'translator-plugin-ios-strings-sdk/'
+            into 'plugins/sdk/ios'
+            include 'language_folder_mapper.json'
+        }
+
+        // baidu translate plugin sdk
+        copy {
+            from 'baidu-translator-plugin-sdk/build/libs/'
+            into 'plugins/sdk/baidu/'
+        }
+
+        copy {
+            from 'baidu-translator-plugin-sdk/'
+            into 'plugins/sdk/baidu/'
+            include 'diff_language_mapper.ini', 'support_language.txt'
+        }
+
+        // typed baidu android xml plugin
+        copy {
+            from 'baidu-translator-plugin-android/build/libs/'
+            into 'plugins/'
+        }
+
+        // typed baidu ios strings plugin
+        copy {
+            from 'baidu-translator-plugin-ios/build/libs/'
+            into 'plugins/'
+        }
+
+        // google translate plugin sdk
+        copy {
+            from 'google-translator-plugin-sdk/build/libs/'
+            into 'plugins/sdk/google/'
+        }
+
+        copy {
+            from 'google-translator-plugin-sdk/'
+            into 'plugins/sdk/google/'
+            include 'diff_language_mapper.ini', 'support_language.txt'
+        }
+
+        // typed google android xml plugin
+        copy {
+            from 'google-translator-plugin-android/build/libs/'
+            into 'plugins/'
+        }
+
+        // typed google android xml plugin
+        copy {
+            from 'google-translator-plugin-ios/build/libs/'
+            into 'plugins/'
+        }
+
+        // youdao translate plugin sdk
+        copy {
+            from 'youdao-translator-plugin-sdk/build/libs/'
+            into 'plugins/sdk/youdao/'
+        }
+
+        copy {
+            from 'youdao-translator-plugin-sdk/'
+            into 'plugins/sdk/youdao/'
+            include 'diff_language_mapper.ini', 'support_language.txt'
+        }
+
+        // typed youdao android xml plugin
+        copy {
+            from 'youdao-translator-plugin-android/build/libs/'
+            into 'plugins/'
+        }
+
+        // typed youdao ios strings plugin
+        copy {
+            from 'youdao-translator-plugin-ios/build/libs/'
+            into 'plugins/'
+        }
+    }
+}
+
+// delete plugins folder
+task deleteAllPlugins {
+
+    doLast {
+
+        File pluginsPath = new File(rootDir.getAbsolutePath() + '\\plugins\\');
+        pluginsPath.deleteDir();
+
+    }
+
+}
+
+// release plugins
+task release {
+
+    doLast {
+        copyAllPlugins.execute()
+
+        copy {
+            from 'plugins/'
+            into 'release_sample/release-' + version + '/plugins/'
+        }
+    }
+
+}

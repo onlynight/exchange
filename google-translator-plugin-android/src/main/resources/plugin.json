@@ -1,0 +1,10 @@
+{
+  "platform": "google",
+  "plugins": [
+    {
+      "name": "GoogleAndroidXmlTranslator",
+      "textType": "android",
+      "entryPoint": "io.github.onlynight.exchange.translator.google.GoogleAndroidXmlTranslator"
+    }
+  ]
+}

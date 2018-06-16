@@ -1,0 +1,10 @@
+{
+  "platform": "youdao",
+  "plugins": [
+    {
+      "name": "YoudaoAndroidXmlTranslator",
+      "textType": "android",
+      "entryPoint": "io.github.onlynight.exchange.translator.youdao.YoudaoAndroidXmlTranslator"
+    }
+  ]
+}

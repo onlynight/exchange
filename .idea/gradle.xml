@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/baidu-translator-plugin-android" />
+            <option value="$PROJECT_DIR$/baidu-translator-plugin-ios" />
+            <option value="$PROJECT_DIR$/baidu-translator-plugin-sdk" />
+            <option value="$PROJECT_DIR$/google-translator-plugin-android" />
+            <option value="$PROJECT_DIR$/google-translator-plugin-ios" />
+            <option value="$PROJECT_DIR$/google-translator-plugin-sdk" />
+            <option value="$PROJECT_DIR$/translator-plugin-android-xml-sdk" />
+            <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk" />
+            <option value="$PROJECT_DIR$/translator-plugin-sdk" />
+            <option value="$PROJECT_DIR$/youdao-translator-plugin-android" />
+            <option value="$PROJECT_DIR$/youdao-translator-plugin-ios" />
+            <option value="$PROJECT_DIR$/youdao-translator-plugin-sdk" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

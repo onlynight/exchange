@@ -1,0 +1,10 @@
+{
+  "platform": "youdao",
+  "plugins": [
+    {
+      "name": "YoudaoIosStringsTranslator",
+      "textType": "ios",
+      "entryPoint": "io.github.onlynight.exchange.translator.youdao.YoudaoIosStringsTranslator"
+    }
+  ]
+}

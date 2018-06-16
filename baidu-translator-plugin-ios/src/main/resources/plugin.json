@@ -1,0 +1,10 @@
+{
+  "platform": "baidu",
+  "plugins": [
+    {
+      "name": "BaiduIosStringsTranslator",
+      "textType": "ios",
+      "entryPoint": "io.github.onlynight.exchange.translator.baidu.BaiduIosStringsTranslator"
+    }
+  ]
+}

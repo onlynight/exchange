@@ -1,0 +1,15 @@
+{
+  "platform": "baidu",
+  "plugins": [
+    {
+      "name": "BaiduXmlTranslator",
+      "textType": "android",
+      "entryPoint": "io.github.onlynight.exchange.translator.baidu.BaiduXmlTranslator"
+    },
+    {
+      "name": "BaiduKeyValueTranslator",
+      "textType": "ios",
+      "entryPoint": "io.github.onlynight.exchange.translator.baidu.BaiduKeyValueTranslator"
+    }
+  ]
+}

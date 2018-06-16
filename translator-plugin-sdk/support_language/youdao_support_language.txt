@@ -1,0 +1,9 @@
+zh-CHS
+ja
+EN
+ko
+fr
+ru
+pt
+es
+vi
