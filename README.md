@@ -1,6 +1,12 @@
 # exchange
 
-The doc will finish soon.
+This is a plugin based translator for typed text translate, 
+such as android ```strings.xml``` or ios ```Localizable.strings```.
+Now it official support android and ios strings resources document 
+translate plugins, and official support google, baidu and youdao 
+translate platform plugins. You can simply use it.
+
+**The full doc will finish soon.**
 
 ### API USE DOC:
 
