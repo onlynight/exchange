@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_site_url">http://yudada123.com/</string>
+
+    <string name="more">更多</string>
+    <string name="save">保存</string>
+    <string name="unknown">未知</string>
+</resources>

@@ -2,5 +2,5 @@
 out/
 build/
 
-values/*
-zh-Hans.lproj/*
+values/values-*/
+zh-Hans.lproj/*.lproj/

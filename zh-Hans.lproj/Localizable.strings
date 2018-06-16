@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Fishing
+
+  Created by olunx on 16/3/3.
+  Copyright © 2016年 Smallai. All rights reserved.
+*/
+
+login_intro = "你的渔获测量专家";
