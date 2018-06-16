@@ -8,6 +8,8 @@ translate platform plugins. You can simply use it.
 
 **The full doc will finish soon.**
 
+For more details you can see the [wiki][1].
+
 ### API USE DOC:
 
 - baidu translate doc:
@@ -25,3 +27,5 @@ translate platform plugins. You can simply use it.
 **https://cloud.google.com/translate/docs/languages**
 - youdao
 **http://ai.youdao.com/docs/doc-trans-api.s#p05**
+
+[1]: https://github.com/onlynight/exchange/wiki
