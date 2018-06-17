@@ -1,9 +1,7 @@
 package io.github.onlynight.exchange.typed.text.plugin.sdk;
 
-import io.github.onlynight.exchange.plugin.sdk.LanguageFolderMapper;
+import io.github.onlynight.exchange.plugin.sdk.BaseTranslatorPlugin;
 import io.github.onlynight.exchange.plugin.sdk.TranslatorHandler;
-import io.github.onlynight.exchange.plugin.sdk.TranslatorPlugin;
-import io.github.onlynight.exchange.plugin.sdk.utils.ClassHelper;
 import io.github.onlynight.exchange.typed.text.plugin.sdk.doc.DocumentIOS;
 
 import java.io.*;
@@ -11,7 +9,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
 
-public abstract class IosStringsTranslator<Handler extends TranslatorHandler> implements TranslatorPlugin {
+public abstract class IosStringsTranslator<Handler extends TranslatorHandler> extends BaseTranslatorPlugin<Handler> {
 
 	//ios文本后缀
 	private static final String IOS_STRINGS_SUB = ".strings";
@@ -23,30 +21,9 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> im
 	public static final String IOS_VALUES_ZH_HANS = "zh-Hans" + IOS_VALUES_SUBFIX;
 	public static final String IOS_VALUES_EN = "en" + IOS_VALUES_SUBFIX;
 
-	protected Handler handler;
-
-	private String translatePath;
-	private LanguageFolderMapper languageFolderMapper;
-
-	public IosStringsTranslator() {
-		handler = (Handler) ClassHelper.createHandler(getClass());
-		languageFolderMapper = new LanguageFolderMapper();
-		languageFolderMapper.loadDefaultMapper(getPluginRelativePath());
-	}
-
-	@Override
-	public String pluginName() {
-		return getClass().getSimpleName();
-	}
-
 	@Override
 	public String getPluginRelativePath() {
 		return PATH;
-	}
-
-	@Override
-	public void setTranslatePath(String translatePath) {
-		this.translatePath = translatePath;
 	}
 
 	@Override
@@ -56,7 +33,6 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> im
 		}
 
 		String url = onGenerateUrl(sourceString, src, target);
-//        System.out.println("REQUEST URL IS : " + url);
 
 		try {
 			URLConnection connection = new URL(url).openConnection();
@@ -93,23 +69,12 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> im
 	}
 
 	@Override
-	public void setTranslatePlatformInfo(String appId, String appKey, String apiUrl, List<String> others) {
-		handler.setTranslatePlatformInfo(appId, appKey, apiUrl, others);
-	}
-
-	@Override
-	public String onGenerateUrl(String content, String srcLanguage, String targetLanguage) {
-		return handler.onGenerateUrl(content, srcLanguage, targetLanguage);
-	}
-
-	@Override
-	public String onTranslateFinished(String result) {
-		return handler.handleJsonString(result);
-	}
-
-	@Override
-	public List<String> getSupportLanguage() {
-		return handler.getSupportLanguage();
+	protected String getValuesFolderName(String targetLanguage) {
+		String folderName = languageFolderMapper.get(targetLanguage);
+		if (folderName == null) {
+			folderName = targetLanguage + IOS_VALUES_SUBFIX;
+		}
+		return folderName;
 	}
 
 	private void translate(DocumentIOS document, String srcLanguage, String targetLanguage) {
@@ -150,14 +115,6 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> im
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-
-	private String getValuesFolderName(String targetLanguage) {
-		String folderName = languageFolderMapper.get(targetLanguage);
-		if (folderName == null) {
-			folderName = targetLanguage + IOS_VALUES_SUBFIX;
-		}
-		return folderName;
 	}
 
 }
