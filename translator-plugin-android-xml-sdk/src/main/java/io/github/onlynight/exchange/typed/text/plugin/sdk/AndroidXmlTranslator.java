@@ -46,35 +46,6 @@ public abstract class AndroidXmlTranslator<Handler extends TranslatorHandler> ex
 	}
 
 	@Override
-	public String innerTranslate(String sourceString, String srcLanguage, String targetLanguage) {
-		if (sourceString == null) {
-			return null;
-		}
-
-		String url = onGenerateUrl(sourceString, srcLanguage, targetLanguage);
-		System.out.println(sourceString + " REQUEST URL IS : " + url);
-
-		try {
-			URLConnection connection = new URL(url).openConnection();
-			InputStream is = connection.getInputStream();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
-			StringBuilder stringBuilder = new StringBuilder();
-			String line = "";
-			while ((line = reader.readLine()) != null) {
-				stringBuilder.append(line);
-			}
-			reader.close();
-
-			String result = stringBuilder.toString();
-			System.out.println(sourceString + " REQUEST RESULT ===> " + result);
-			return onTranslateFinished(result);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
 	protected String getValuesFolderName(String targetLanguage) {
 		String folderName = languageFolderMapper.get(targetLanguage);
 		if (folderName == null) {

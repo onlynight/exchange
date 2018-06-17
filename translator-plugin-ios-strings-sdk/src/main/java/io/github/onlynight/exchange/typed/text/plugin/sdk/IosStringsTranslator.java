@@ -32,31 +32,6 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> ex
 	}
 
 	@Override
-	public String innerTranslate(String sourceString, String src, String target) {
-		if (sourceString == null) {
-			return null;
-		}
-
-		String url = onGenerateUrl(sourceString, src, target);
-
-		try {
-			URLConnection connection = new URL(url).openConnection();
-			InputStream is = connection.getInputStream();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
-			StringBuilder result = new StringBuilder();
-			String line = "";
-			while ((line = reader.readLine()) != null) {
-				result.append(line);
-			}
-
-			return onTranslateFinished(result.toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	@Override
 	public void translate(String srcLanguage, String targetLanguage) {
 		File file = new File(translatePath);
 		File[] files = file.listFiles();
