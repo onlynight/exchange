@@ -42,7 +42,9 @@ For more details you can see the [wiki][1].
     + **youdao** just like **baidu**.
     + ```apiUrl``` this param may not change, it just support you a way to change if need.
     + ```textType``` set the source typed text type, official support android and ios strings doc.
-    + ```sourceLanguage``` source language, ```destinationLanguage``` destination language, the value you can find in ```support_language.txt```.
+    + ```sourceLanguage``` source language
+    + ```destinationLanguage``` destination language, the value you can find in ```support_language.txt```.
+    It can be a single value, or a list value, or special "all" value.
     + ```sourceFilePath``` translate file path, plugin will scan the path to translate. 
     it should in your tools root path, it is a **RELATIVE** path.
 4. Copy the file you want to translate in the tools path.
@@ -91,6 +93,9 @@ sourceLanguage = zh-CN
 #
 # the platform support language contains in the root of the project support_laguage.txt
 # you can check this file to get the platform support language
+# eg1: destinationLanguage = en
+# eg2: destinationLanguage = en,zh-TW
+# eg3: destinationLanguage = all
 destinationLanguage = en
 
 # the translate file must in the same path or sub dir of the translator.jar.
