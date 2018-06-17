@@ -48,7 +48,62 @@ For more details you can see the [wiki][1].
 4. Copy the file you want to translate in the tools path.
 5. run the script ```run.bat``` or ```run.sh```, it depends on your system.
 
+```ini
+[platform key]
+# baidu translate api info, you should replace it with your own.
+# the doc is here: http://api.fanyi.baidu.com/api/trans/product/apidoc
+;appId = 123412341
+;appKey = asdfasqre14as11423412
+;apiUrl = https://api.fanyi.baidu.com/api/trans/vip/translate
+;others =
+
+# google translate api info, you should replace it with your own.
+# doc is here: https://cloud.google.com/translate/v2/quickstart
+appId =
+appKey = asdkfhkjhewqrWEQRBAWER124512
+apiUrl = https://translation.googleapis.com/language/translate/v2
+others =
+
+# youdao translate api info, you should replace it with your own.
+# the doc is here: http://ai.youdao.com/docs/doc-trans-api.s#p02
+; appId = 1234542212341
+; appKey = asdftrrsaqwerfgasTQE1234RTEWQtw
+; apiUrl = http://openapi.youdao.com/api
+; others =
+
+[platform]
+# now support google, baidu, youdao translate platform api.
+# the value you can choose are "google", "baidu", "youdao"
+translatePlatform = google
+
+[text type]
+# now support android .xml string res and ios .strings string res translate.
+# the value you can choose are "android" or "ios"
+textType = android
+
+[translator]
+# the source language you provided.
+sourceLanguage = zh-CN
+
+# if you want translate all language you should use "all" to replace this value.
+# use "all" means you want translate the platform support all languages;
+# or you should use language code to tell the translate you want to translate.
+#
+# the platform support language contains in the root of the project support_laguage.txt
+# you can check this file to get the platform support language
+destinationLanguage = en
+
+# the translate file must in the same path or sub dir of the translator.jar.
+# this value assign the folder name, if you don't want use sub dir,
+# just use "/" to replace the value
+sourceFilePath = values
+```
+
+## How to create plugins
+
+Here is a plugin demo project, it will help you to create plugins [plugin course][4].
 
 [1]: https://github.com/onlynight/exchange/wiki
 [2]: https://github.com/onlynight/exchange/releases
 [3]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+[4]: https://github.com/onlynight/exhange-plugin-demo
