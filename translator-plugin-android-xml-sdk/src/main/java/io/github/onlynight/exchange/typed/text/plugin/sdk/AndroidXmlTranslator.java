@@ -1,10 +1,7 @@
 package io.github.onlynight.exchange.typed.text.plugin.sdk;
 
 import io.github.onlynight.exchange.plugin.sdk.BaseTranslatorPlugin;
-import io.github.onlynight.exchange.plugin.sdk.LanguageFolderMapper;
 import io.github.onlynight.exchange.plugin.sdk.TranslatorHandler;
-import io.github.onlynight.exchange.plugin.sdk.TranslatorPlugin;
-import io.github.onlynight.exchange.plugin.sdk.utils.ClassHelper;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -14,7 +11,6 @@ import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
-import java.util.List;
 
 public abstract class AndroidXmlTranslator<Handler extends TranslatorHandler> extends BaseTranslatorPlugin<Handler> {
 
@@ -25,6 +21,11 @@ public abstract class AndroidXmlTranslator<Handler extends TranslatorHandler> ex
 	@Override
 	public String getPluginRelativePath() {
 		return PATH;
+	}
+
+	@Override
+	public String textType() {
+		return TEXT_TYPE_ANDROID;
 	}
 
 	@Override

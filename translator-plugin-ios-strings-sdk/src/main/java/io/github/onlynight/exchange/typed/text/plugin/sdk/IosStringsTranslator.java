@@ -27,6 +27,11 @@ public abstract class IosStringsTranslator<Handler extends TranslatorHandler> ex
 	}
 
 	@Override
+	public String textType() {
+		return TEXT_TYPE_IOS;
+	}
+
+	@Override
 	public String innerTranslate(String sourceString, String src, String target) {
 		if (sourceString == null) {
 			return null;
