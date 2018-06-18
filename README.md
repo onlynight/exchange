@@ -12,7 +12,7 @@ For more details you can see the [wiki][1].
 You can simply use like this:
 
 ```bash
-~ hash run.sh
+~/hash run.sh
 ```
 
 then the file will translate to your specified out path.
