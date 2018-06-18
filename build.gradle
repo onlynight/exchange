@@ -1,11 +1,14 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'io.github.onlynight'
-version '1.0-SNAPSHOT'
+version '1.1-SNAPSHOT'
 
 sourceCompatibility = 1.8
+
+mainClassName = 'io.github.onlynight.exchange.Main'
 
 repositories {
     mavenCentral()
@@ -25,17 +28,26 @@ dependencies {
 
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'io.github.onlynight.exchange.Main'
-        attributes 'Class-Path': 'gson-2.8.5.jar dom4j-1.6.1.jar xml-apis-1.0.b2.jar translator-plugin-sdk-1.0-SNAPSHOT.jar'
-    }
+// set compile task encoding
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = "UTF-8"
 }
 
 task "create-dirs" << {
     sourceSets*.java.srcDirs*.each { it.mkdirs() }
     sourceSets*.resources.srcDirs*.each { it.mkdirs() }
 } as String
+
+jar {
+    manifest {
+        attributes("Main-Class": "io.github.onlynight.exchange.Main",
+                "Implementation-Title": "Gradle")
+    }
+}
 
 // delete android xml translate result folders
 task deleteXmlTranslateRes {
@@ -189,16 +201,121 @@ task deleteAllPlugins {
 
 }
 
-// release plugins
+// release
 task release {
 
+    doFirst {
+        // clean all build and build jar files
+        clean.execute()
+        buildAllJar.execute()
+    }
+
     doLast {
+        install.execute()
         copyAllPlugins.execute()
 
         copy {
             from 'plugins/'
-            into 'release_sample/release-' + version + '/plugins/'
+            into 'release/release-' + version + '/plugins/'
         }
+
+        copy {
+            from 'build/install/exchange/lib/'
+            into 'release/release-' + version + '/libs/'
+        }
+
+        // delete duplicate libs
+        File libs = new File(rootDir.getAbsolutePath() + '/release/release-' + version + '/libs/')
+        File[] jars = libs.listFiles()
+        for (File file : jars) {
+            if (file.getName().equals('exchange-' + version + '.jar')) {
+                file.delete()
+            } else if (file.getName().startsWith('translator-plugin-sdk-')) {
+                file.delete()
+            }
+        }
+
+        // copy plugin host jar file to root path
+        copy {
+            from 'build/install/exchange/lib/'
+            into 'release/release-' + version + '/'
+            include 'exchange-' + version + '.jar'
+        }
+
+        // copy config file
+        copy {
+            from './'
+            into 'release/release-' + version + '/'
+            include 'support_language.txt', 'translate_config.ini'
+        }
+
+        // generate run.sh
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/' + 'run.sh')), 'utf-8'))
+        writer.write('#!/usr/bin/env bash\n')
+        writer.write('java -Dfile.encoding=utf-8 -jar exchange-' + version + '.jar\n')
+        writer.close()
+
+        // generate run.bat
+        writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/' + 'run.bat')), 'utf-8'))
+        writer.write('java -Dfile.encoding=utf-8 -jar exchange-' + version + '.jar\n')
+        writer.close()
+
+        // create translate source folder
+        File path = new File('release/release-' + version + '/values/')
+        if ( ! path.exists() ){
+            path.mkdirs()
+        }
+        path = new File('release/release-' + version + '/zh-Hans.lproj/')
+        if ( ! path.exists() ){
+            path.mkdirs()
+        }
+
+        // generate strings.xml
+        writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/values/' + 'strings.xml')), 'utf-8'))
+        writer.write('<resources>')
+        writer.write('    <string name="more">更多</string>\n')
+        writer.write('</resources>')
+        writer.close()
+
+        // generate Localizable.strings
+        writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/zh-Hans.lproj/' + 'Localizable.strings')), 'utf-8'))
+        writer.write('/* \n' +
+                '  Localizable.strings\n' +
+                '  Fishing\n' +
+                '\n' +
+                '  Created by olunx on 16/3/3.\n' +
+                '  Copyright © 2016年 Smallai. All rights reserved.\n' +
+                '*/\n')
+        writer.write('login_intro = "你的渔获测量专家";')
+        writer.close()
+
+        // generate Localizable.strings
+        writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/zh-Hans.lproj/' + 'Camera.strings')), 'utf-8'))
+        writer.write('/* Class = "UITableViewController"; title = "选择鱼种"; ObjectID = "tmB-Gp-B45"; */\n')
+        writer.write('"tmB-Gp-B45.title" = "选择鱼种";')
+        writer.close()
+
+        writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream(new File('release/release-' + version + '/' + 'README.txt')), 'utf-8'))
+        writer.write('you can direct run "run.bat" or "run.sh" to execute translte task')
+        writer.close()
     }
 
+}
+
+task buildAllJar(type: Exec, description: 'build all jar') {
+    workingDir './'
+    //on windows:
+    commandLine 'cmd', '/c', 'gradlew.bat build jar'
+}
+
+task install(type: Exec, description: 'install dist') {
+    workingDir './'
+    //on windows:
+    commandLine 'cmd', '/c', 'gradlew.bat installDist'
 }

@@ -112,6 +112,26 @@ sourceFilePath = values
 - youdao
 **http://ai.youdao.com/docs/doc-trans-api.s#p05**
 
+## RELEASE
+
+If you want to generate release package, just run the script
+in the project root path:
+
+on windows:
+
+```bash
+./gradlw.bat release
+```
+
+on linux:
+
+```bash
+~/sh gradlw release
+```
+
+Then, the release package will generate into 
+**/release/release-<version>** folder.
+
 ## How to create plugins
 
 Here is a plugin demo project, it will help you to create plugins [plugin course][4].

@@ -1,12 +1,16 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="exchange_main:jar">
+  <artifact build-on-make="true" name="exchange_main:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/exchange_main_jar</output-path>
-    <root id="archive" name="exchange_main.jar">
-      <element id="module-output" name="exchange_main" />
-      <element id="module-output" name="translator-plugin-sdk_main" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="exchange_main.jar">
+        <element id="module-output" name="exchange_main" />
+        <element id="module-output" name="translator-plugin-sdk_main" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/libs/fastini-1.1.1.jar" />
+      <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.5" />
+      <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+      <element id="file-copy" path="$PROJECT_DIR$/translator-plugin-sdk/libs/fastini-1.1.1.jar" />
+      <element id="library" level="project" name="Gradle: xml-apis:xml-apis:1.0.b2" />
     </root>
   </artifact>
 </component>

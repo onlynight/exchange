@@ -11,4 +11,5 @@ public class BaiduTranslatorHandlerTest {
         BaiduTranslatorHandler handler = new BaiduTranslatorHandler();
         System.out.println(Arrays.toString(handler.getSupportLanguage().toArray()));
     }
+
 }
