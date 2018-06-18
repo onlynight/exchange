@@ -1,6 +1,8 @@
 exchange
 ========
 
+中文说明文档 [README_CN.md][5] 
+
 This is a plugin based translator for typed text translate, 
 such as android ```strings.xml``` or ios ```Localizable.strings```.
 Now it official support android and ios strings resources document 
@@ -12,7 +14,7 @@ For more details you can see the [wiki][1].
 You can simply use like this:
 
 ```bash
-~/hash run.sh
+~/sh run.sh
 ```
 
 then the file will translate to your specified out path.
@@ -140,3 +142,4 @@ Here is a plugin demo project, it will help you to create plugins [plugin course
 [2]: https://github.com/onlynight/exchange/releases
 [3]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 [4]: https://github.com/onlynight/exhange-plugin-demo
+[5]: ./README_CN.md
