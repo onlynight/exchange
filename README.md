@@ -9,23 +9,13 @@ translate platform plugins. You can simply use it.
 
 For more details you can see the [wiki][1].
 
-### API USE DOC:
+You can simply use like this:
 
-- baidu translate doc:
-**http://api.fanyi.baidu.com/api/trans/product/apidoc**
-- google translate doc:
-**https://cloud.google.com/translate/v2/quickstart**
-- yoduao translate doc:
-**http://ai.youdao.com/docs/doc-trans-api.s#p01**
+```bash
+~ hash run.sh
+```
 
-### SUPPORT LANGUAGE DOC
-
-- baidu
-**http://api.fanyi.baidu.com/api/trans/product/apidoc**
-- google
-**https://cloud.google.com/translate/docs/languages**
-- youdao
-**http://ai.youdao.com/docs/doc-trans-api.s#p05**
+then the file will translate to your specified out path.
 
 ## USE
 
@@ -103,6 +93,24 @@ destinationLanguage = en
 # just use "/" to replace the value
 sourceFilePath = values
 ```
+
+## API USE DOC:
+
+- baidu translate doc:
+**http://api.fanyi.baidu.com/api/trans/product/apidoc**
+- google translate doc:
+**https://cloud.google.com/translate/v2/quickstart**
+- yoduao translate doc:
+**http://ai.youdao.com/docs/doc-trans-api.s#p01**
+
+## SUPPORT LANGUAGE DOC
+
+- baidu
+**http://api.fanyi.baidu.com/api/trans/product/apidoc**
+- google
+**https://cloud.google.com/translate/docs/languages**
+- youdao
+**http://ai.youdao.com/docs/doc-trans-api.s#p05**
 
 ## How to create plugins
 
