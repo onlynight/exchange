@@ -2,97 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e406d3de-4316-4576-839c-40ad7faffbc9" name="Default" comment="update release translate file sample">
-      <change afterPath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/resources/platform_plugin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/support_language.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/resources/platform_plugin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/BasePluginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/DocumentHandlerPluginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslatePlatformPluginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/resources/doc_plugin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/resources/doc_plugin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/test/java/DocumentIOSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/DocumentHandlerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/BaseDocumentHandlerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/BaseTranslatePlatformPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/TranslatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/utils/JarUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/doc_plugin_demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/platform_plugin_demo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/resources/platform_plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/PluginConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-android/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduAndroidXmlTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-android/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-ios/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-ios/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduIosStringsTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-ios/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatorHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatorHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/resources/plugin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/diff_language_mapper.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/sdk/baidu/diff_language_mapper.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/sdk/baidu/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/support_language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/result/BaiduTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/java/io/github/onlynight/exchange/translator/baidu/result/BaiduTranslateResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/support_language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/resources/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/resources/support_language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/support_language.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-android/src/main/java/io/github/onlynight/exchange/translator/google/GoogleAndroidXmlTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-android/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-ios/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-ios/src/main/java/io/github/onlynight/exchange/translator/google/GoogleIosStringsTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-ios/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatorHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/baidu-translator-plugin-android-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/baidu-translator-plugin-ios-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/google-translator-plugin-android-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/google-translator-plugin-ios-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/android/language_folder_mapper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/android/translator-plugin-android-xml-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/baidu/baidu-translator-plugin-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/baidu/diff_language_mapper.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/baidu/support_language.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/google/diff_language_mapper.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/google/google-translator-plugin-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/google/support_language.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/ios/language_folder_mapper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/ios/translator-plugin-ios-strings-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/plugin-sdk/translator-plugin-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/youdao/diff_language_mapper.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/youdao/support_language.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sdk/youdao/youdao-translator-plugin-sdk-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/youdao-translator-plugin-android-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/youdao-translator-plugin-ios-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/diff_language_mapper.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/support_language.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/generator/LanguageFolderMapperGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/support_language/LanguageFolderMapper.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/support_language/support_language.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/BaseTranslatorHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/BaseTranslatorPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/LanguageFolderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/utils/LanguageFolderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/TranslatorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/PlatformHandlerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/TranslatorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/language/generator/LanguageGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/plugin_demo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-android/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoAndroidXmlTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-android/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-ios/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-ios/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoIosStringsTranslator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-ios/src/main/resources/plugin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/language_folder_mapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/language_folder_mapper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/resources/doc_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/Localizable.strings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/language_folder_mapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/language_folder_mapper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/resources/doc_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/test/java/DocumentIOSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/test/java/DocumentIOSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/diff_language_mapper.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/result/YouDaoTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/java/io/github/onlynight/exchange/translator/youdao/result/YouDaoTranslateResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/resources/plugin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/support_language.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -133,6 +102,23 @@
     <ignored path="$PROJECT_DIR$/youdao-translator-plugin-sdk/.gradle/" />
     <ignored path="$PROJECT_DIR$/youdao-translator-plugin-sdk/build/" />
     <ignored path="$PROJECT_DIR$/youdao-translator-plugin-sdk/out/" />
+    <ignored path="$PROJECT_DIR$/document-ha-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/document-ha-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/document-handler-android-xml-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/document-handler-android-xml-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/document-handler-ios-strings-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/document-handler-ios-strings-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-baidu-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-baidu-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-google-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-google-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-youdao-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-youdao-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/document-handler-android-xml-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/document-handler-ios-strings-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-baidu-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-google-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/translate-platform-youdao-plugin/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,58 +177,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="translate_config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translate_config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslatorPluginManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4397#4398#0" expanded="true" />
-                <element signature="e#4437#4438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1298#1299#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="904" column="18" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -253,9 +193,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -273,14 +213,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release_1.1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\wyndam\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\zhang\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -304,28 +244,28 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":baidu-translator-plugin-sdk" />
-                <option name="path" value="$PROJECT_DIR$/baidu-translator-plugin-sdk" />
+                <option name="name" value=":document-handler-android-xml-plugin" />
+                <option name="path" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":google-translator-plugin-sdk" />
-                <option name="path" value="$PROJECT_DIR$/google-translator-plugin-sdk" />
+                <option name="name" value=":document-handler-ios-strings-plugin" />
+                <option name="path" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":translator-plugin-android-xml-sdk" />
-                <option name="path" value="$PROJECT_DIR$/translator-plugin-android-xml-sdk" />
+                <option name="name" value=":translate-platform-baidu-plugin" />
+                <option name="path" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":translator-plugin-ios-strings-sdk" />
-                <option name="path" value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk" />
+                <option name="name" value=":translate-platform-google-plugin" />
+                <option name="path" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":translate-platform-youdao-plugin" />
+                <option name="path" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":translator-plugin-sdk" />
                 <option name="path" value="$PROJECT_DIR$/translator-plugin-sdk" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":youdao-translator-plugin-sdk" />
-                <option name="path" value="$PROJECT_DIR$/youdao-translator-plugin-sdk" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -364,6 +304,10 @@
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="create-dirsbuild_9yomvqzwicscphiyz8mmq8z7c$_run_closure6@6db0fbbc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -532,10 +476,6 @@
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="create-dirsbuild_bz60grmn7q4b27ij5jfay7yi7$_run_closure6@25567925" />
-              </ExternalTaskPojo>
             </list>
           </value>
         </entry>
@@ -670,6 +610,324 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/document-ha-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':document-ha-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':document-ha-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':document-ha-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':document-ha-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/document-handler-android-xml-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':document-handler-android-xml-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':document-handler-android-xml-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':document-handler-android-xml-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':document-handler-android-xml-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/document-handler-ios-strings-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':document-handler-ios-strings-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':document-handler-ios-strings-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':document-handler-ios-strings-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':document-handler-ios-strings-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/google-translator-plugin-sdk">
           <value>
             <list>
@@ -796,6 +1054,399 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':google-translator-plugin-sdk'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/google-translator-plugin-sdk" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/translate-platform-baidu-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':translate-platform-baidu-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':translate-platform-baidu-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':translate-platform-baidu-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':translate-platform-baidu-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/translate-platform-google-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':translate-platform-google-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':translate-platform-google-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':translate-platform-google-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':translate-platform-google-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/translate-platform-youdao-plugin">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':translate-platform-youdao-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':translate-platform-youdao-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':translate-platform-youdao-plugin'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':translate-platform-youdao-plugin'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1329,20 +1980,25 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="15293781474662" />
+        <entry key="$PROJECT_DIR$" value="15292804345804" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/baidu-translator-plugin-android/build.gradle" value="2556764648" />
         <entry key="$PROJECT_DIR$/baidu-translator-plugin-ios/build.gradle" value="3917526209" />
-        <entry key="$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle" value="865078413" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4182291142" />
+        <entry key="$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle" value="279394639" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2053980167" />
+        <entry key="$PROJECT_DIR$/document-handler-android-xml-plugin/build.gradle" value="1466850738" />
+        <entry key="$PROJECT_DIR$/document-handler-ios-strings-plugin/build.gradle" value="2531008456" />
         <entry key="$PROJECT_DIR$/google-translator-plugin-android/build.gradle" value="720290583" />
         <entry key="$PROJECT_DIR$/google-translator-plugin-ios/build.gradle" value="1527469630" />
         <entry key="$PROJECT_DIR$/google-translator-plugin-sdk/build.gradle" value="2018874020" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="2214172978" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="3043528305" />
+        <entry key="$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle" value="279394639" />
+        <entry key="$PROJECT_DIR$/translate-platform-google-plugin/build.gradle" value="2018874020" />
+        <entry key="$PROJECT_DIR$/translate-platform-youdao-plugin/build.gradle" value="2531008456" />
         <entry key="$PROJECT_DIR$/translator-plugin-android-xml-sdk/build.gradle" value="1466850738" />
         <entry key="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/build.gradle" value="2531008456" />
-        <entry key="$PROJECT_DIR$/translator-plugin-sdk/build.gradle" value="2526121046" />
+        <entry key="$PROJECT_DIR$/translator-plugin-sdk/build.gradle" value="2949531887" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-android/build.gradle" value="194862733" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-ios/build.gradle" value="2054736804" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-sdk/build.gradle" value="2531008456" />
@@ -1383,6 +2039,27 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/document-ha-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/document-ha-plugin" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/document-handler-android-xml-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/document-handler-android-xml-plugin" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/document-handler-ios-strings-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/document-handler-ios-strings-plugin" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/google-translator-plugin-android">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1401,6 +2078,27 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/google-translator-plugin-sdk" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/translate-platform-baidu-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/translate-platform-baidu-plugin" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/translate-platform-google-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/translate-platform-google-plugin" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/translate-platform-youdao-plugin">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/translate-platform-youdao-plugin" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1571,9 +2269,7 @@
         <option value="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlTranslatorImpl.java" />
         <option value="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" />
         <option value="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/resources/doc_plugin.json" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/release/release-2.0-SNAPSHOT/translate_config.ini" />
         <option value="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/resources/platform_plugin.json" />
         <option value="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/resources/platform_plugin.json" />
@@ -1582,17 +2278,20 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslatePlatformPluginConfig.java" />
         <option value="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/Translator.java" />
         <option value="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/TranslatorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" />
         <option value="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/resources/platform_plugin.json" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslateConfig.java" />
         <option value="$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/BaseTranslatePlatformPlugin.java" />
         <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/resources/doc_plugin.json" />
         <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOSTest.java" />
         <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/Main.java" />
-        <option value="$PROJECT_DIR$/translate_config.ini" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/translate_config.ini" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/PluginConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1606,18 +2305,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="416" />
+    <option name="y" value="147" />
     <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1625,37 +2323,13 @@
               <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
               <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exchange" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1707,7 +2381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.exchange [release]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="io.github.onlynight.exchange.Main" />
       <module name="exchange_main" />
@@ -1715,6 +2389,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="exchange [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration name="exchange [deleteStringsTranslateRes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -1784,29 +2475,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="DocumentIOSTest.testParseDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="translator-plugin-ios-strings-sdk_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DocumentIOSTest" />
-      <option name="METHOD_NAME" value="testParseDoc" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1847,19 +2515,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.DocumentIOSTest.testParseDoc" />
-      <item itemvalue="Gradle.exchange [release]" />
       <item itemvalue="Gradle.exchange [deleteStringsTranslateRes]" />
       <item itemvalue="Gradle.exchange [deleteXmlTranslateRes]" />
       <item itemvalue="Gradle.exchange [install]" />
+      <item itemvalue="Gradle.exchange [clean]" />
+      <item itemvalue="Gradle.exchange [release]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.exchange [release]" />
+        <item itemvalue="Gradle.exchange [clean]" />
         <item itemvalue="Gradle.exchange [install]" />
         <item itemvalue="Gradle.exchange [deleteXmlTranslateRes]" />
         <item itemvalue="Gradle.exchange [deleteStringsTranslateRes]" />
-        <item itemvalue="JUnit.DocumentIOSTest.testParseDoc" />
-        <item itemvalue="Gradle.exchange [release]" />
       </list>
     </recent_temporary>
   </component>
@@ -1941,42 +2609,66 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25597000" />
+    <option name="totallyTimeSpent" value="27062000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039935" side_tool="true" weight="0.36796194" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2553305" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.26226014" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.3291039" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809674" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291039" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960065" weight="0.36796194" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32698414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23682109" />
+      <window_info id="Learn" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.18410543" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="4" weight="0.32936078" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2553305" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.26226014" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1996,103 +2688,69 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
+          <url>file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
+          <url>file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
+          <url>file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java</url>
           <line>47</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/resources/plugin.json" />
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/resources/support_language.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/support_language.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/support_language.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/diff_language_mapper.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java">
+    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/support_language.txt" />
+    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/diff_language_mapper.ini" />
+    <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2026">
-          <caret line="179" column="10" selection-start-line="179" selection-start-column="10" selection-end-line="179" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/translate_config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/translate_config.ini" />
+    <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/run.sh" />
     <entry file="file://$PROJECT_DIR$/google-translator-plugin-ios/src/main/resources/plugin.json" />
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle">
+    <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java">
+    <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="53" selection-start-column="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/resources/platform_plugin.json">
+    <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/resources/plugin.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java">
+    <entry file="file://$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="54" lean-forward="true" selection-start-column="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/resources/platform_plugin.json">
+    <entry file="file://$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/resources/plugin.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
@@ -2103,14 +2761,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/translator-plugin-android-xml-sdk/support_language/support_language.txt" />
-    <entry file="file://$PROJECT_DIR$/translator-plugin-android-xml-sdk/language_folder_mapper.json">
+    <entry file="file://$PROJECT_DIR$/document-handler-android-xml-plugin/language_folder_mapper.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/resources/doc_plugin.json">
+    <entry file="file://$PROJECT_DIR$/document-handler-android-xml-plugin/src/main/resources/plugin.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="1" lean-forward="true" selection-end-line="4" selection-end-column="1" />
@@ -2131,42 +2789,6 @@
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#576#577#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/DocumentHandlerPluginConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslatePlatformPluginConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/platform_plugin_demo.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/doc_plugin_demo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -2206,14 +2828,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java">
+    <entry file="file://$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-translator-plugin-sdk/src/main/resources/platform_plugin.json">
+    <entry file="file://$PROJECT_DIR$/translate-platform-google-plugin/src/main/resources/plugin.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -2227,7 +2849,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java">
+    <entry file="file://$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
@@ -2241,27 +2863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/ios/language_folder_mapper.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/resources/doc_plugin.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="95" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/ios/language_folder_mapper.json" />
     <entry file="file://$PROJECT_DIR$/translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/plugin/sdk/impl/TranslatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2269,59 +2871,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java">
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/Localizable.strings">
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/Localizable.strings">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java">
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/build.gradle">
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/test/java/DocumentIOSTest.java">
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/test/java/DocumentIOSTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zh-Hans.lproj/en.lproj/Camera.strings">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zh-Hans.lproj/en.lproj/Localizable.strings">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zh-Hans.lproj/en.lproj/Camera.strings" />
+    <entry file="file://$PROJECT_DIR$/zh-Hans.lproj/en.lproj/Localizable.strings" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="904" column="18" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4437#4438#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2337,17 +2923,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate_config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support_language.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translate_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/TranslatePlatformPluginConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/DocumentHandlerPluginConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/PluginConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/resources/plugin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="95" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/platform_plugin_demo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translator-plugin-sdk/src/main/resources/doc_plugin_demo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="78" column="96" lean-forward="true" selection-start-line="78" selection-start-column="96" selection-end-line="78" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3808#3809#0" expanded="true" />
+            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3910#3911#0" expanded="true" />
+            <element signature="e#3948#3949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>

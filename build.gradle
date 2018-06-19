@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.github.onlynight'
-version '2.0-SNAPSHOT'
+version '2.0'
 
 sourceCompatibility = 1.8
 
@@ -105,60 +105,60 @@ task copyAllPlugins {
 
         // android xml plugin sdk
         copy {
-            from 'translator-plugin-android-xml-sdk/build/libs/'
+            from 'document-handler-android-xml-plugin/build/libs/'
             into 'plugins/android/'
         }
 
         copy {
-            from 'translator-plugin-android-xml-sdk/'
+            from 'document-handler-android-xml-plugin/'
             into 'plugins/android'
             include 'language_folder_mapper.json'
         }
 
         // ios strings plugin sdk
         copy {
-            from 'translator-plugin-ios-strings-sdk/build/libs/'
+            from 'document-handler-ios-strings-plugin/build/libs/'
             into 'plugins/ios/'
         }
 
         copy {
-            from 'translator-plugin-ios-strings-sdk/'
+            from 'document-handler-ios-strings-plugin/'
             into 'plugins/ios'
             include 'language_folder_mapper.json'
         }
 
         // baidu translate plugin sdk
         copy {
-            from 'baidu-translator-plugin-sdk/build/libs/'
+            from 'translate-platform-baidu-plugin/build/libs/'
             into 'plugins/baidu/'
         }
 
         copy {
-            from 'baidu-translator-plugin-sdk/'
+            from 'translate-platform-baidu-plugin/'
             into 'plugins/baidu/'
             include 'diff_language_mapper.ini', 'support_language.txt'
         }
 
         // google translate plugin sdk
         copy {
-            from 'google-translator-plugin-sdk/build/libs/'
+            from 'translate-platform-google-plugin/build/libs/'
             into 'plugins/google/'
         }
 
         copy {
-            from 'google-translator-plugin-sdk/'
+            from 'translate-platform-google-plugin/'
             into 'plugins/google/'
             include 'diff_language_mapper.ini', 'support_language.txt'
         }
 
         // youdao translate plugin sdk
         copy {
-            from 'youdao-translator-plugin-sdk/build/libs/'
+            from 'translate-platform-youdao-plugin/build/libs/'
             into 'plugins/youdao/'
         }
 
         copy {
-            from 'youdao-translator-plugin-sdk/'
+            from 'translate-platform-youdao-plugin/'
             into 'plugins/youdao/'
             include 'diff_language_mapper.ini', 'support_language.txt'
         }

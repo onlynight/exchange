@@ -1,8 +1,8 @@
 rootProject.name = 'exchange'
 include 'translator-plugin-sdk'
-include 'translator-plugin-android-xml-sdk'
-include 'translator-plugin-ios-strings-sdk'
-include 'baidu-translator-plugin-sdk'
-include 'google-translator-plugin-sdk'
-include 'youdao-translator-plugin-sdk'
+include 'document-handler-android-xml-plugin'
+include 'document-handler-ios-strings-plugin'
+include 'translate-platform-baidu-plugin'
+include 'translate-platform-google-plugin'
+include 'translate-platform-youdao-plugin'
 
