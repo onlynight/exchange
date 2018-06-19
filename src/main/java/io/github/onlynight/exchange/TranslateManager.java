@@ -1,6 +1,10 @@
 package io.github.onlynight.exchange;
 
-import io.github.onlynight.exchange.plugin.sdk.TranslatorPlugin;
+import io.github.onlynight.exchange.bean.PluginConfig;
+import io.github.onlynight.exchange.bean.TranslateConfig;
+import io.github.onlynight.exchange.plugin.sdk.PlatformHandlerPlugin;
+import io.github.onlynight.exchange.plugin.sdk.Translator;
+import io.github.onlynight.exchange.plugin.sdk.impl.TranslatorImpl;
 
 import java.util.List;
 
@@ -10,6 +14,7 @@ import java.util.List;
  */
 public class TranslateManager {
 
+	private Translator translator;
 	private static TranslateManager instance;
 
 	public static TranslateManager getInstance() {
@@ -19,37 +24,48 @@ public class TranslateManager {
 		return instance;
 	}
 
-	public void translate(String srcLanguage, String destLanguage, String platform, String textType,
-	                      String translatePath, String appId, String appKey, String apiUrl, List<String> others) {
-		TranslatorPlugin plugin = TranslatorPluginManager.getInstance().getTranslator(platform, textType);
-		if (plugin != null) {
-			plugin.setTranslatePath(translatePath);
-			plugin.setTranslatePlatformInfo(appId, appKey, apiUrl, others);
-			if (destLanguage == null) {
-				List<String> languages = plugin.getSupportLanguage();
-				for (String language : languages) {
-					if (!language.equals(srcLanguage)) {
-						plugin.translate(srcLanguage, language);
-					}
+	private void translate(String srcLanguage, String destLanguage) {
+		if (destLanguage == null) {
+			PlatformHandlerPlugin plugin = translator.getTranslatePlatformPlugin();
+			if (plugin != null && plugin.getSupportLanguage() != null) {
+				for (String lang : plugin.getSupportLanguage()) {
+					translator.translate(srcLanguage, lang);
 				}
-			} else {
-				plugin.translate(srcLanguage, destLanguage);
 			}
 		} else {
-			System.err.println("CAN'T FIND <platform>=" + platform + " <textType>=" + textType + " TRANSLATORS");
+			translator.translate(srcLanguage, destLanguage);
+		}
+	}
+
+	private void createTranslator(String platform, String textType, String translatePath,
+	                              String appId, String appKey, String apiUrl, List<String> others) {
+		if (translator == null) {
+			PluginConfig platformConfig = TranslatorPluginManager.getInstance()
+					.getTranslatePlatformPlugins().get(platform);
+			PluginConfig docConfig = TranslatorPluginManager.getInstance()
+					.getDocHandlerPlugins().get(textType);
+
+			if (platformConfig == null) {
+				throw new RuntimeException("platformConfig load fail");
+			}
+			if (docConfig == null) {
+				throw new RuntimeException("docConfig load fail");
+			}
+
+			translator = new TranslatorImpl(platformConfig.getName(), docConfig.getName(),
+					translatePath, appId, appKey, apiUrl, others);
 		}
 	}
 
 	private void translate(String srcLanguage, List<String> destLanguages, String platform, String textType,
 	                       String translatePath, String appId, String appKey, String apiUrl, List<String> others) {
+		createTranslator(platform, textType, translatePath, appId, appKey, apiUrl, others);
 		if (destLanguages != null) {
 			if (destLanguages.size() == 1 && destLanguages.get(0).equals("all")) {
-				translate(srcLanguage, (String) null, platform, textType,
-						translatePath, appId, appKey, apiUrl, others);
+				translate(srcLanguage, null);
 			} else {
 				for (String destLanguage : destLanguages) {
-					translate(srcLanguage, destLanguage, platform, textType,
-							translatePath, appId, appKey, apiUrl, others);
+					translate(srcLanguage, destLanguage);
 				}
 			}
 		}

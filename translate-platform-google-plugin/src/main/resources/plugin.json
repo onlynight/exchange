@@ -1,0 +1,5 @@
+{
+    "pluginType": "translatePlatform",
+    "platform": "google",
+    "name": "io.github.onlynight.exchange.translator.google.GoogleTranslatePlatformPlugin"
+}

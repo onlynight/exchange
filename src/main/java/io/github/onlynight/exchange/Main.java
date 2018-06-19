@@ -2,6 +2,7 @@ package io.github.onlynight.exchange;
 
 import com.github.onlynight.fastini.FastIni;
 import com.google.gson.Gson;
+import io.github.onlynight.exchange.bean.TranslateConfig;
 import io.github.onlynight.exchange.utils.JarLoaderUtil;
 
 import java.io.File;
@@ -40,7 +41,7 @@ public class Main {
     private static void translate() {
         TranslateConfig config = new FastIni().fromPath(new File(new File(EMPTY_STR).getAbsolutePath(),
                 CONFIG_FILE_NAME).getAbsolutePath(), TranslateConfig.class);
-        System.out.println(new Gson().toJson(config));
+        System.out.println(config.toString());
         TranslateManager.getInstance().translate(config);
     }
 

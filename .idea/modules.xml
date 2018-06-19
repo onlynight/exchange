@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin.iml" group="document-handler-android-xml-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_main.iml" group="document-handler-android-xml-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_test.iml" group="document-handler-android-xml-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin.iml" group="document-handler-ios-strings-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_main.iml" group="document-handler-ios-strings-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_test.iml" group="document-handler-ios-strings-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exchange.iml" filepath="$PROJECT_DIR$/.idea/modules/exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exchange_main.iml" filepath="$PROJECT_DIR$/.idea/modules/exchange_main.iml" group="exchange" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exchange_test.iml" filepath="$PROJECT_DIR$/.idea/modules/exchange_test.iml" group="exchange" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin.iml" group="translate-platform-baidu-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_main.iml" group="translate-platform-baidu-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_test.iml" group="translate-platform-baidu-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin.iml" group="translate-platform-google-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_main.iml" group="translate-platform-google-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_test.iml" group="translate-platform-google-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin.iml" group="translate-platform-youdao-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_main.iml" group="translate-platform-youdao-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_test.iml" group="translate-platform-youdao-plugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk.iml" group="translator-plugin-sdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_main.iml" filepath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_main.iml" group="translator-plugin-sdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_test.iml" filepath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_test.iml" group="translator-plugin-sdk" />
+    </modules>
+  </component>
+</project>

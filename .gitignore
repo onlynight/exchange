@@ -5,3 +5,4 @@ build/
 values/values-*/
 zh-Hans.lproj/*.lproj/
 release/
+plugins/

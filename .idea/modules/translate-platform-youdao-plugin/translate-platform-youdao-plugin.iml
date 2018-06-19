@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":translate-platform-youdao-plugin" external.linked.project.path="$MODULE_DIR$/../../../translate-platform-youdao-plugin" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="io.github.onlynight" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../translate-platform-youdao-plugin">
+      <excludeFolder url="file://$MODULE_DIR$/../../../translate-platform-youdao-plugin/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../translate-platform-youdao-plugin/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../translate-platform-youdao-plugin/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

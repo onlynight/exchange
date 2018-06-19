@@ -1,9 +1,0 @@
-zh-CN
-ja
-en
-ko
-fr
-ru
-pt
-es
-vi
