@@ -37,7 +37,6 @@ dependencies {
     // https://github.com/onlynight/FastIni
     // https://jitpack.io/#onlynight/FastIni
     compile 'com.github.onlynight:FastIni:1.2.1'
-    'com.github.onlynight:FastIni:1.2.1'
 
 }
 
