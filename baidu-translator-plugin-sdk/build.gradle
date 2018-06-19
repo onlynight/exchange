@@ -13,8 +13,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile fileTree(dir:'../libs',include:['*.jar'])
 
-    compile project(':translator-plugin-android-xml-sdk')
-    compile project(':translator-plugin-ios-strings-sdk')
+    compile project(':translator-plugin-sdk')
 }

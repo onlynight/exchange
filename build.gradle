@@ -10,8 +10,16 @@ sourceCompatibility = 1.8
 
 mainClassName = 'io.github.onlynight.exchange.Main'
 
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -25,6 +33,11 @@ dependencies {
 
     // https://mvnrepository.com/artifact/dom4j/dom4j
     compile 'dom4j:dom4j:1.6.1'
+
+    // https://github.com/onlynight/FastIni
+    // https://jitpack.io/#onlynight/FastIni
+    compile 'com.github.onlynight:FastIni:1.2.1'
+    'com.github.onlynight:FastIni:1.2.1'
 
 }
 

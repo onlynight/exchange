@@ -13,10 +13,13 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile fileTree(dir:'../libs',include:['*.jar'])
 
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
     compile 'com.google.code.gson:gson:2.8.5'
+
+    // https://github.com/onlynight/FastIni
+    // https://jitpack.io/#onlynight/FastIni
+    compile 'com.github.onlynight:FastIni:1.2.1'
 }
 
 // set compile task encoding
