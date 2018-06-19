@@ -287,7 +287,7 @@ task release {
         // generate strings.xml
         writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream(new File('release/release-' + version + '/values/' + 'strings.xml')), 'utf-8'))
-        writer.write('<resources>')
+        writer.write('<resources>\n')
         writer.write('    <string name="more">更多</string>\n')
         writer.write('</resources>')
         writer.close()
