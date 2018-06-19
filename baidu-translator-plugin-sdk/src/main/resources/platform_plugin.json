@@ -1,0 +1,5 @@
+{
+    "pluginType": "translatePlatform",
+    "platform": "baidu",
+    "name": "io.github.onlynight.exchange.translator.baidu.BaiduTranslatePlatformPlugin"
+}

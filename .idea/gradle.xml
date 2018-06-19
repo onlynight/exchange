@@ -9,17 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/baidu-translator-plugin-android" />
-            <option value="$PROJECT_DIR$/baidu-translator-plugin-ios" />
             <option value="$PROJECT_DIR$/baidu-translator-plugin-sdk" />
-            <option value="$PROJECT_DIR$/google-translator-plugin-android" />
-            <option value="$PROJECT_DIR$/google-translator-plugin-ios" />
             <option value="$PROJECT_DIR$/google-translator-plugin-sdk" />
             <option value="$PROJECT_DIR$/translator-plugin-android-xml-sdk" />
             <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk" />
             <option value="$PROJECT_DIR$/translator-plugin-sdk" />
-            <option value="$PROJECT_DIR$/youdao-translator-plugin-android" />
-            <option value="$PROJECT_DIR$/youdao-translator-plugin-ios" />
             <option value="$PROJECT_DIR$/youdao-translator-plugin-sdk" />
           </set>
         </option>

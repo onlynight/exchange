@@ -1,0 +1,5 @@
+{
+    "pluginType": "documentHandler",
+    "typedTextType": "android",
+    "name": "io.github.onlynight.exchange.typed.text.plugin.sdk.AndroidXmlDocumentHandlerPlugin"
+}

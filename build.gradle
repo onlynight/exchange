@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.github.onlynight'
-version '1.1'
+version '2.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
@@ -100,103 +100,67 @@ task copyAllPlugins {
         // base plugin sdk
         copy {
             from 'translator-plugin-sdk/build/libs/'
-            into 'plugins/sdk/plugin-sdk/'
+            into 'plugins/sdk/'
         }
 
         // android xml plugin sdk
         copy {
             from 'translator-plugin-android-xml-sdk/build/libs/'
-            into 'plugins/sdk/android/'
+            into 'plugins/android/'
         }
 
         copy {
             from 'translator-plugin-android-xml-sdk/'
-            into 'plugins/sdk/android'
+            into 'plugins/android'
             include 'language_folder_mapper.json'
         }
 
         // ios strings plugin sdk
         copy {
             from 'translator-plugin-ios-strings-sdk/build/libs/'
-            into 'plugins/sdk/ios/'
+            into 'plugins/ios/'
         }
 
         copy {
             from 'translator-plugin-ios-strings-sdk/'
-            into 'plugins/sdk/ios'
+            into 'plugins/ios'
             include 'language_folder_mapper.json'
         }
 
         // baidu translate plugin sdk
         copy {
             from 'baidu-translator-plugin-sdk/build/libs/'
-            into 'plugins/sdk/baidu/'
+            into 'plugins/baidu/'
         }
 
         copy {
             from 'baidu-translator-plugin-sdk/'
-            into 'plugins/sdk/baidu/'
+            into 'plugins/baidu/'
             include 'diff_language_mapper.ini', 'support_language.txt'
-        }
-
-        // typed baidu android xml plugin
-        copy {
-            from 'baidu-translator-plugin-android/build/libs/'
-            into 'plugins/'
-        }
-
-        // typed baidu ios strings plugin
-        copy {
-            from 'baidu-translator-plugin-ios/build/libs/'
-            into 'plugins/'
         }
 
         // google translate plugin sdk
         copy {
             from 'google-translator-plugin-sdk/build/libs/'
-            into 'plugins/sdk/google/'
+            into 'plugins/google/'
         }
 
         copy {
             from 'google-translator-plugin-sdk/'
-            into 'plugins/sdk/google/'
+            into 'plugins/google/'
             include 'diff_language_mapper.ini', 'support_language.txt'
-        }
-
-        // typed google android xml plugin
-        copy {
-            from 'google-translator-plugin-android/build/libs/'
-            into 'plugins/'
-        }
-
-        // typed google android xml plugin
-        copy {
-            from 'google-translator-plugin-ios/build/libs/'
-            into 'plugins/'
         }
 
         // youdao translate plugin sdk
         copy {
             from 'youdao-translator-plugin-sdk/build/libs/'
-            into 'plugins/sdk/youdao/'
+            into 'plugins/youdao/'
         }
 
         copy {
             from 'youdao-translator-plugin-sdk/'
-            into 'plugins/sdk/youdao/'
+            into 'plugins/youdao/'
             include 'diff_language_mapper.ini', 'support_language.txt'
-        }
-
-        // typed youdao android xml plugin
-        copy {
-            from 'youdao-translator-plugin-android/build/libs/'
-            into 'plugins/'
-        }
-
-        // typed youdao ios strings plugin
-        copy {
-            from 'youdao-translator-plugin-ios/build/libs/'
-            into 'plugins/'
         }
     }
 }
@@ -219,6 +183,10 @@ task release {
     doFirst {
         // clean all build and build jar files
         clean.execute()
+
+        File releasePath = new File('release/release-' + version)
+        releasePath.deleteDir()
+
         buildAllJar.execute()
     }
 
@@ -276,11 +244,11 @@ task release {
 
         // create translate source folder
         File path = new File('release/release-' + version + '/values/')
-        if ( ! path.exists() ){
+        if (!path.exists()) {
             path.mkdirs()
         }
         path = new File('release/release-' + version + '/zh-Hans.lproj/')
-        if ( ! path.exists() ){
+        if (!path.exists()) {
             path.mkdirs()
         }
 

@@ -1,0 +1,5 @@
+{
+    "pluginType": "documentHandler",
+    "typedTextType": "ios",
+    "name": "io.github.onlynight.exchange.typed.text.plugin.sdk.IosStringsDocumentHandlerPlugin"
+}

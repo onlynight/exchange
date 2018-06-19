@@ -6,14 +6,26 @@
       <module name="android-xml-tranlator-plugin-sdk_test" target="1.8" />
       <module name="android-xml-translator-plugin-sdk_main" target="1.8" />
       <module name="android-xml-translator-plugin-sdk_test" target="1.8" />
+      <module name="baidu-translator-plugin-android_main" target="1.8" />
+      <module name="baidu-translator-plugin-android_test" target="1.8" />
       <module name="baidu-translator-plugin-baidu-translator-plugin-android_main" target="1.8" />
       <module name="baidu-translator-plugin-baidu-translator-plugin-android_test" target="1.8" />
+      <module name="baidu-translator-plugin-ios_main" target="1.8" />
+      <module name="baidu-translator-plugin-ios_test" target="1.8" />
       <module name="baidu-translator-plugin_main" target="1.8" />
       <module name="baidu-translator-plugin_test" target="1.8" />
+      <module name="google-translator-plugin-android_main" target="1.8" />
+      <module name="google-translator-plugin-android_test" target="1.8" />
+      <module name="google-translator-plugin-ios_main" target="1.8" />
+      <module name="google-translator-plugin-ios_test" target="1.8" />
       <module name="ios-strings-translator-plugin-sdk_main" target="1.8" />
       <module name="ios-strings-translator-plugin-sdk_test" target="1.8" />
       <module name="yoduao-translator-plugin-sdk_main" target="1.8" />
       <module name="yoduao-translator-plugin-sdk_test" target="1.8" />
+      <module name="youdao-translator-plugin-android_main" target="1.8" />
+      <module name="youdao-translator-plugin-android_test" target="1.8" />
+      <module name="youdao-translator-plugin-ios_main" target="1.8" />
+      <module name="youdao-translator-plugin-ios_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

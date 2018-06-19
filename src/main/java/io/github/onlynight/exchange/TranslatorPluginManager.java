@@ -1,19 +1,24 @@
 package io.github.onlynight.exchange;
 
 import com.google.gson.Gson;
-import io.github.onlynight.exchange.plugin.sdk.TranslatorPlugin;
+import io.github.onlynight.exchange.bean.DocumentHandlerPluginConfig;
+import io.github.onlynight.exchange.bean.TranslatePlatformPluginConfig;
+import io.github.onlynight.exchange.utils.JarLoaderUtil;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
+import java.util.Set;
 
 public class TranslatorPluginManager {
 
-    private HashMap<String, List<TranslatorPlugin>> plugins;
+    private HashMap<String, DocumentHandlerPluginConfig> docHandlerPlugins;
+    private HashMap<String, TranslatePlatformPluginConfig> translatePlatformPlugins;
 
     private static TranslatorPluginManager instance;
 
@@ -25,17 +30,32 @@ public class TranslatorPluginManager {
     }
 
     private TranslatorPluginManager() {
-        plugins = new HashMap<>();
+        docHandlerPlugins = new HashMap<>();
+        translatePlatformPlugins = new HashMap<>();
     }
 
     public void loadPlugins() {
         File currentFolder = new File("");
         File pluginFolder = new File(currentFolder.getAbsolutePath(), "plugins");
-        File[] files = pluginFolder.listFiles();
+        scanFolder(pluginFolder.getAbsolutePath());
+        System.err.println(translatePlatform(
+                translatePlatformPlugins.keySet(), "translatePlatform"));
+        System.err.println(translatePlatform(
+                docHandlerPlugins.keySet(), "textType"));
+        JarLoaderUtil.loadJarPath(pluginFolder.getAbsolutePath());
+    }
+
+    private void scanFolder(String path) {
+        File currentFolder = new File(path);
+        File[] files = currentFolder.listFiles();
         if (files != null && files.length > 0) {
             for (File file : files) {
-                if (file.isFile() && file.getName().endsWith(".jar")) {
-                    loadPlugin(file);
+                if (file.isFile()) {
+                    if (file.getName().endsWith(".jar")) {
+                        loadPlugin(file);
+                    }
+                } else {
+                    scanFolder(file.getAbsolutePath());
                 }
             }
         }
@@ -43,71 +63,95 @@ public class TranslatorPluginManager {
 
     private void loadPlugin(File pluginFile) {
         System.out.println("LOAD PLUGIN ===> " + pluginFile.getName());
+        URL fileUrl = null;
         try {
-            URL fileUrl = new URL("file:" + pluginFile.getAbsolutePath());
-            URLClassLoader classLoader = new URLClassLoader(new URL[]{fileUrl},
-                    ClassLoader.getSystemClassLoader());
-            InputStream pluginConfigStream = classLoader.getResourceAsStream("plugin.json");
-            TranslatorPluginConfig config = loadConfig(pluginConfigStream);
-            if (config != null) {
-                if (config.getPlugins() != null) {
-                    List<TranslatorPlugin> instances = new ArrayList<>();
-                    for (TranslatorPluginConfig.Plugin plugin : config.getPlugins()) {
-                        Class<?> clazz = classLoader.loadClass(plugin.getEntryPoint());
-                        TranslatorPlugin instance = (TranslatorPlugin) clazz.newInstance();
-                        System.out.println("PLUGIN ===> " + instance.pluginName() + " ===> LOADED");
-                        instances.add(instance);
-                    }
-
-                    List<TranslatorPlugin> loadedPlugins = plugins.get(config.getPlatform());
-                    if (loadedPlugins != null) {
-                        loadedPlugins.addAll(instances);
-                    } else {
-                        plugins.put(config.getPlatform(), instances);
-                    }
-                }
-            } else {
-                System.err.println("DON'T FIND \"plugin.json\" file in " + pluginFile.getName());
-            }
-        } catch (MalformedURLException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+            fileUrl = new URL("file:" + pluginFile.getAbsolutePath());
+        } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-    }
 
-    private TranslatorPluginConfig loadConfig(InputStream inputStream) {
-        if (inputStream != null) {
-            String line;
-            StringBuilder sb = new StringBuilder();
+        if (fileUrl != null) {
+            URLClassLoader classLoader = new URLClassLoader(new URL[]{fileUrl},
+                    ClassLoader.getSystemClassLoader());
             try {
-                BufferedReader reader = new BufferedReader(
-                        new InputStreamReader(inputStream, "utf-8"));
-                while ((line = reader.readLine()) != null) {
-                    sb.append(line);
+                InputStream pluginConfigStream = classLoader.getResourceAsStream("doc_plugin.json");
+                DocumentHandlerPluginConfig docConfig = loadDocConfig(pluginConfigStream);
+                if (docConfig != null) {
+                    docHandlerPlugins.put(docConfig.getTypedTextType(), docConfig);
                 }
-                reader.close();
-                return new Gson().fromJson(sb.toString(), TranslatorPluginConfig.class);
-            } catch (IOException e) {
+
+                pluginConfigStream = classLoader.getResourceAsStream("platform_plugin.json");
+                TranslatePlatformPluginConfig platformConfig = loadPlatformConfig(pluginConfigStream);
+                if (platformConfig != null) {
+                    translatePlatformPlugins.put(platformConfig.getPlatform(), platformConfig);
+                }
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
+    }
+
+    private DocumentHandlerPluginConfig loadDocConfig(InputStream inputStream) {
+        String content = loadStreamContent(inputStream);
+        if (content != null) {
+            return new Gson().fromJson(content, DocumentHandlerPluginConfig.class);
+        }
         return null;
     }
 
-    public HashMap<String, List<TranslatorPlugin>> getPlugins() {
-        return plugins;
+    private TranslatePlatformPluginConfig loadPlatformConfig(InputStream inputStream) {
+        String content = loadStreamContent(inputStream);
+        if (content != null) {
+            return new Gson().fromJson(content, TranslatePlatformPluginConfig.class);
+        }
+        return null;
     }
 
-    public TranslatorPlugin getTranslator(String platform, String textType) {
-        if (plugins != null) {
-            List<TranslatorPlugin> temps = plugins.get(platform);
-            for (TranslatorPlugin plugin : temps) {
-                if (plugin.textType().equals(textType)) {
-                    return plugin;
-                }
+    private String loadStreamContent(InputStream inputStream) {
+        String line;
+        StringBuilder sb = new StringBuilder();
+
+        try {
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(inputStream, "utf-8"));
+            while ((line = reader.readLine()) != null) {
+                sb.append(line);
             }
+            reader.close();
+            return sb.toString();
+        } catch (Exception ignore) {
+            return null;
         }
 
-        return null;
+    }
+
+    public HashMap<String, DocumentHandlerPluginConfig> getDocHandlerPlugins() {
+        return docHandlerPlugins;
+    }
+
+    public void setDocHandlerPlugins(HashMap<String, DocumentHandlerPluginConfig> docHandlerPlugins) {
+        this.docHandlerPlugins = docHandlerPlugins;
+    }
+
+    public HashMap<String, TranslatePlatformPluginConfig> getTranslatePlatformPlugins() {
+        return translatePlatformPlugins;
+    }
+
+    public void setTranslatePlatformPlugins(HashMap<String, TranslatePlatformPluginConfig> translatePlatformPlugins) {
+        this.translatePlatformPlugins = translatePlatformPlugins;
+    }
+
+    private String translatePlatform(Set<String> keys, String namespace) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (String plat : keys) {
+            sb.append(plat).append(",");
+        }
+        sb.append("]");
+        String res = sb.toString();
+        int index = res.lastIndexOf(',');
+        String plats = res.substring(0, index) + res.substring(index + 1, res.length());
+        return namespace + ": " + plats;
     }
 
 }

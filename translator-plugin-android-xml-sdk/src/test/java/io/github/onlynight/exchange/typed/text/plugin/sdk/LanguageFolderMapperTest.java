@@ -1,6 +1,6 @@
 package io.github.onlynight.exchange.typed.text.plugin.sdk;
 
-import io.github.onlynight.exchange.plugin.sdk.LanguageFolderMapper;
+import io.github.onlynight.exchange.plugin.sdk.utils.LanguageFolderMapper;
 import org.junit.Test;
 
 public class LanguageFolderMapperTest {

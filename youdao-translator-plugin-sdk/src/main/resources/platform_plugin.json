@@ -1,0 +1,5 @@
+{
+    "pluginType": "translatePlatform",
+    "platform": "youdao",
+    "name": "io.github.onlynight.exchange.translator.youdao.YoudaoTranslatePlatformPlugin"
+}

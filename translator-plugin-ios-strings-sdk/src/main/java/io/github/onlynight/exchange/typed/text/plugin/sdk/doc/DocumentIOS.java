@@ -21,7 +21,7 @@ public class DocumentIOS {
         this.path = path;
     }
 
-    public void parse() {
+    public DocumentIOS parse() {
         try {
             BufferedReader reader = new BufferedReader(
                     new InputStreamReader(new FileInputStream(new File(path)), "utf-8"));
@@ -39,27 +39,19 @@ public class DocumentIOS {
                 // 过滤多行注释，单行
                 if (tempLine.contains(IGNORE_LINE_START_1) &&
                         tempLine.contains(IGNORE_LINE_START_2)) {
-                    iosStringLine.setValidLine(false);
                 }
 
                 // 过滤多行注释，多行
                 if (tempLine.startsWith(IGNORE_LINE_START_1)) {
                     isAnnotation = true;
-                    iosStringLine.setValidLine(false);
-                }
-
-                if (isAnnotation) {
-                    iosStringLine.setValidLine(false);
                 }
 
                 if (tempLine.startsWith(IGNORE_LINE_START_2)) {
-                    iosStringLine.setValidLine(false);
                     isAnnotation = false;
                 }
 
                 // 过滤单行注释
                 if (tempLine.startsWith(IGNORE_LINE_START_3)) {
-                    iosStringLine.setValidLine(false);
                 }
 
                 // 识别关键行, pattern1
@@ -74,15 +66,14 @@ public class DocumentIOS {
                     String value = temp.substring(indexEqual + 1, indexColon - 1).replace("\"", "");
                     iosStringLine.setKey(key);
                     iosStringLine.setValue(value);
-                    iosStringLine.setValidLine(true);
+                    lines.add(iosStringLine);
                 }
-                lines.add(iosStringLine);
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        return this;
     }
 
     public List<IOSStringLine> getLines() {
@@ -94,18 +85,9 @@ public class DocumentIOS {
     }
 
     public static final class IOSStringLine {
-        private boolean isValidLine = false;
         private String content;
         private String key;
         private String value;
-
-        public boolean isValidLine() {
-            return isValidLine;
-        }
-
-        public void setValidLine(boolean validLine) {
-            isValidLine = validLine;
-        }
 
         public String getContent() {
             return content;
