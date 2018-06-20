@@ -2,66 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e406d3de-4316-4576-839c-40ad7faffbc9" name="Default" comment="update release translate file sample">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/PluginConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/diff_language_mapper.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/sdk/baidu/diff_language_mapper.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/plugins/sdk/baidu/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/support_language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/java/io/github/onlynight/exchange/translator/baidu/BaiduTranslatePlatformPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/baidu/result/BaiduTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/java/io/github/onlynight/exchange/translator/baidu/result/BaiduTranslateResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/main/resources/plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/java/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/support_language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/src/test/resources/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/resources/support_language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu-translator-plugin-sdk/support_language.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/diff_language_mapper.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/GoogleTranslatePlatformPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/java/io/github/onlynight/exchange/translator/google/result/GoogleTranslateResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/src/main/resources/plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google-translator-plugin-sdk/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-google-plugin/support_language.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/language_folder_mapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/language_folder_mapper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/AndroidXmlDocumentHandlerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/main/resources/doc_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/main/resources/plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-android-xml-sdk/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-android-xml-plugin/src/test/java/io/github/onlynight/exchange/typed/text/plugin/sdk/LanguageFolderMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/language_folder_mapper.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/language_folder_mapper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/IosStringsDocumentHandlerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/resources/doc_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/main/resources/plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/test/java/DocumentIOSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-handler-ios-strings-plugin/src/test/java/DocumentIOSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/diff_language_mapper.ini" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/diff_language_mapper.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/java/io/github/onlynight/exchange/translator/youdao/YoudaoTranslatePlatformPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/java/io/github/onlynight/exchange/translator/youdao/result/YouDaoTranslateResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/java/io/github/onlynight/exchange/translator/youdao/result/YouDaoTranslateResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/src/main/resources/platform_plugin.json" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/src/main/resources/plugin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youdao-translator-plugin-sdk/support_language.txt" beforeDir="false" afterPath="$PROJECT_DIR$/translate-platform-youdao-plugin/support_language.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-android-xml-plugin/document-handler-android-xml-plugin_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/document-handler-ios-strings-plugin/document-handler-ios-strings-plugin_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/exchange.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/exchange_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/exchange_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-baidu-plugin/translate-platform-baidu-plugin_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-google-plugin/translate-platform-google-plugin_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translate-platform-youdao-plugin/translate-platform-youdao-plugin_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/translator-plugin-sdk/translator-plugin-sdk_test.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -160,13 +122,6 @@
                 <item name="exchange" type="f1a62948:ProjectNode" />
                 <item name="exchange" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exchange" type="f1a62948:ProjectNode" />
-                <item name="exchange" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -177,12 +132,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -220,7 +175,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\zhang\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\wyndam\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -304,10 +259,6 @@
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="startScripts" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="create-dirsbuild_9yomvqzwicscphiyz8mmq8z7c$_run_closure6@6db0fbbc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -472,6 +423,10 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="create-dirsbuild_bz60grmn7q4b27ij5jfay7yi7$_run_closure6@415b0b44" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'exchange'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -606,62 +561,6 @@
                 <option name="description" value="Displays the properties of project ':baidu-translator-plugin-sdk'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/baidu-translator-plugin-sdk" />
                 <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/document-ha-plugin">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':document-ha-plugin'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':document-ha-plugin'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':document-ha-plugin'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':document-ha-plugin'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/document-ha-plugin" />
-                <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1980,12 +1879,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="15292804345804" />
+        <entry key="$PROJECT_DIR$" value="15294336136912" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/baidu-translator-plugin-android/build.gradle" value="2556764648" />
         <entry key="$PROJECT_DIR$/baidu-translator-plugin-ios/build.gradle" value="3917526209" />
         <entry key="$PROJECT_DIR$/baidu-translator-plugin-sdk/build.gradle" value="279394639" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2053980167" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4182291142" />
         <entry key="$PROJECT_DIR$/document-handler-android-xml-plugin/build.gradle" value="1466850738" />
         <entry key="$PROJECT_DIR$/document-handler-ios-strings-plugin/build.gradle" value="2531008456" />
         <entry key="$PROJECT_DIR$/google-translator-plugin-android/build.gradle" value="720290583" />
@@ -1993,12 +1892,12 @@
         <entry key="$PROJECT_DIR$/google-translator-plugin-sdk/build.gradle" value="2018874020" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3043528305" />
-        <entry key="$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle" value="279394639" />
+        <entry key="$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle" value="865078413" />
         <entry key="$PROJECT_DIR$/translate-platform-google-plugin/build.gradle" value="2018874020" />
         <entry key="$PROJECT_DIR$/translate-platform-youdao-plugin/build.gradle" value="2531008456" />
         <entry key="$PROJECT_DIR$/translator-plugin-android-xml-sdk/build.gradle" value="1466850738" />
         <entry key="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/build.gradle" value="2531008456" />
-        <entry key="$PROJECT_DIR$/translator-plugin-sdk/build.gradle" value="2949531887" />
+        <entry key="$PROJECT_DIR$/translator-plugin-sdk/build.gradle" value="2526121046" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-android/build.gradle" value="194862733" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-ios/build.gradle" value="2054736804" />
         <entry key="$PROJECT_DIR$/youdao-translator-plugin-sdk/build.gradle" value="2531008456" />
@@ -2285,13 +2184,13 @@
         <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOSTest.java" />
         <option value="$PROJECT_DIR$/translator-plugin-ios-strings-sdk/src/main/java/io/github/onlynight/exchange/typed/text/plugin/sdk/doc/DocumentIOS.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/Main.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/translate_config.ini" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/bean/PluginConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslateManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/onlynight/exchange/TranslatorPluginManager.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -2322,6 +2221,16 @@
             <path>
               <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
               <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exchange" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="document-handler-ios-strings-plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2381,7 +2290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.exchange [release]">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="io.github.onlynight.exchange.Main" />
       <module name="exchange_main" />
@@ -2402,23 +2311,6 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="exchange [deleteStringsTranslateRes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="deleteStringsTranslateRes" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2475,6 +2367,23 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
+    <configuration name="exchange [startScripts]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="startScripts" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2515,19 +2424,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.exchange [deleteStringsTranslateRes]" />
       <item itemvalue="Gradle.exchange [deleteXmlTranslateRes]" />
       <item itemvalue="Gradle.exchange [install]" />
       <item itemvalue="Gradle.exchange [clean]" />
       <item itemvalue="Gradle.exchange [release]" />
+      <item itemvalue="Gradle.exchange [startScripts]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.exchange [startScripts]" />
         <item itemvalue="Gradle.exchange [release]" />
         <item itemvalue="Gradle.exchange [clean]" />
         <item itemvalue="Gradle.exchange [install]" />
         <item itemvalue="Gradle.exchange [deleteXmlTranslateRes]" />
-        <item itemvalue="Gradle.exchange [deleteStringsTranslateRes]" />
       </list>
     </recent_temporary>
   </component>
@@ -2609,48 +2518,47 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27062000" />
+    <option name="totallyTimeSpent" value="27453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039935" side_tool="true" weight="0.36796194" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="4" weight="0.3291039" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39809674" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291039" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960065" weight="0.36796194" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32698414" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23682109" />
-      <window_info id="Learn" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.18410543" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24093817" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.32827735" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.26226014" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info id="Learn" order="3" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2553305" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.3298969" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info id="Image Layers" order="4" />
@@ -2660,13 +2568,15 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Gradle" order="1" visible="true" weight="0.26226014" />
+      <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info id="Designer" order="0" />
     </layout>
@@ -2710,16 +2620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/support_language.txt" />
-    <entry file="file://$PROJECT_DIR$/baidu-translator-plugin-sdk/out/production/diff_language_mapper.ini" />
-    <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/src/test/java/io/github/onlynight/exchange/translator/baidu/BaiduPlatformHandlerPluginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/translate_config.ini" />
     <entry file="file://$PROJECT_DIR$/release/release-2.0-SNAPSHOT/run.sh" />
     <entry file="file://$PROJECT_DIR$/google-translator-plugin-ios/src/main/resources/plugin.json" />
     <entry file="file://$PROJECT_DIR$/translate-platform-baidu-plugin/build.gradle">
@@ -2923,13 +2823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support_language.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -3032,6 +2925,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/release-2.0/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/release-2.0/run.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_CN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
