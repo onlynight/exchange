@@ -3,11 +3,11 @@ exchange
 
 中文说明文档 [README_CN.md][5] 
 
-This is a plugin based translator for typed text translate, 
-such as android ```strings.xml``` or ios ```Localizable.strings```.
-Now it official support android and ios strings resources document 
-translate plugins, and official support google, baidu and youdao 
-translate platform plugins. You can simply use it.
+This is a plugin based translator for typed text translation, 
+such as Android ```strings.xml``` or iOS ```Localizable.strings```.
+Now it officially supports Android and iOS strings resources document 
+translation plugins, and officially supports Google, Baidu and Youdao 
+translation platform plugins. You can simply use it.
 
 For more details you can see the [wiki][1].
 
@@ -17,13 +17,13 @@ You can simply use like this:
 ~/sh run.sh
 ```
 
-then the file will translate to your specified out path.
+then the file will be translated to your specified path.
 
-## USE
+## USAGE
 
 1. First download release zip file here [LATEST RELEASE][2].
 2. Install JRE or JDK to run this tools. You can download here [JDK DOWNLOAD][3].
-3. Config ```translate_config.ini``` file in the RELEASE zip file root path.
+3. Configure ```translate_config.ini``` file in the RELEASE zip file root path.
     + ```translatePlatform``` choose the translate platform, official support ```google```, ```baidu``` and ```youdao```.
     + Translate platform may need you register developer account to access translate api, 
     this ```appId```, ```appKey``` and ```apiUrl``` three param you can get it form translate 
