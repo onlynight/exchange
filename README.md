@@ -122,13 +122,13 @@ in the project root path:
 on windows:
 
 ```bash
-./gradlw.bat release
+./gradlew.bat release
 ```
 
 on linux:
 
 ```bash
-~/sh gradlw release
+~/sh gradlew release
 ```
 
 Then, the release package will generate into 
