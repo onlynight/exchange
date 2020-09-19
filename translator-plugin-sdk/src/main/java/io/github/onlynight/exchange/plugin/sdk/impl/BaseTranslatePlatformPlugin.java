@@ -8,6 +8,7 @@ import io.github.onlynight.exchange.plugin.sdk.utils.JarUtils;
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -114,12 +115,14 @@ public abstract class BaseTranslatePlatformPlugin implements PlatformHandlerPlug
         try {
             URLConnection connection = new URL(url).openConnection();
             InputStream is = connection.getInputStream();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             StringBuilder result = new StringBuilder();
             String line = "";
             while ((line = reader.readLine()) != null) {
                 result.append(line);
             }
+
+            System.out.println("RESULT STRING ====> " + result.toString());
 
             return onTranslateFinished(result.toString());
         } catch (IOException e) {

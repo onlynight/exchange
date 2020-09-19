@@ -257,6 +257,8 @@ task release {
                 new FileOutputStream(new File('release/release-' + version + '/values/' + 'strings.xml')), 'utf-8'))
         writer.write('<resources>\n')
         writer.write('    <string name="more">更多</string>\n')
+        writer.write('    <string name="title">标题</string>\n')
+        writer.write('    <string name="subtitle">副标题</string>\n')
         writer.write('</resources>')
         writer.close()
 

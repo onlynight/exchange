@@ -69,6 +69,7 @@ public class AndroidXmlDocumentHandlerPlugin extends BaseDocumentHandlerPlugin<D
         while (iterator.hasNext() && document.getDestStrings() != null) {
             Element element = (Element) iterator.next();
             element.setText(document.getDestStrings().get(index));
+            index++;
         }
         sb.append(doc.asXML());
         writeNewDocument(document.getPath(), sb, targetLanguage);

@@ -26,10 +26,11 @@ public class BaiduTranslatePlatformPlugin extends BaseTranslatePlatformPlugin {
 
         String sign = sign(content, randomInt);
         try {
+            Thread.sleep(1000);
             return String.format("%s?from=%s&to=%s&appid=%s&salt=%d&q=%s&sign=%s",
                     apiUrl, convertLanguage(fromLanguage), convertLanguage(toLanguage), appId,
                     randomInt, URLEncoder.encode(content, "utf-8"), sign);
-        } catch (UnsupportedEncodingException e) {
+        } catch (UnsupportedEncodingException | InterruptedException e) {
             e.printStackTrace();
         }
 
